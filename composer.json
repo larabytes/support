@@ -1,0 +1,21 @@
+{
+    "name": "larabytes/support",
+    "description": "Aggregator support for Larabytes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kani Robinson",
+            "email": "me@kanirobinson.co.uk"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "fabpot/goutte": "^4.0",
+        "nesbot/carbon": "^2.39"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aggregators\\Support\\": "src/"
+        }
+    }
+}
